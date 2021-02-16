@@ -1,0 +1,25 @@
+{
+  "version":"v1.0 06/21/2019",
+  "python3":"<tools>/python-3.5.2/bin/python3.5",
+
+  "sFTP_db":"sftp",
+
+  "host":"xxxxxx.local.xxxxxx.com",
+  "user":"username",
+  "password":"password",
+  
+  "SMTP":"mail.local.xxxxxx.com",
+  "email_from":"xxxxxx@xxxxxx.com",
+  "email_to":"xxxxxx@xxxxxx.com",
+  "reports_rawdata":"<rawdatadir>",
+  "reports":"<reportdir>",
+  "project_log":"log",
+  "project_base":"<projectidr>",
+  "sFTP_script":"<scriptdir>/s3-sftp-user.py",
+  "sjmbin": "<tools>/sjm/bin/",
+  "aws": "<aws dir>",
+  "aws_s3_server": "s3://xxxxxx-us-xxxxxx-sftp/",
+  "generate_email": "<generate email script",
+  "gridnode": "HPC grid node",
+  "uploadnode": "local node"
+}

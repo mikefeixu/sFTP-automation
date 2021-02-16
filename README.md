@@ -19,11 +19,11 @@ A tool that automates the sFTP account generation and data delivery
 - Pipeline use cases:
   - Case one: Run with a quote number. Quote is required, other arguments are optional. If pe is used, the job will be submitted to the grid. And the job logs can be found in the project root folder.
 ```
-python3 sFTP_automation.py -quote_number [quote number] -customer_email <customer email> -folder_to_upload <folder to be uploaded> -pe <nodetypes>
+python2 sFTP_automation.py -quote_number [quote number] -customer_email <customer email> -folder_to_upload <folder to be uploaded> -pe <nodetypes>
 ```
   - Case two: Run without a quote number. Customer_email and folder_to_upload are both required. Other arguments are optional. If pe is used, the job will be submitted to the grid. And the job logs can be found in the current working folder.
 ```
-python3 sFTP_automation.py -customer_email [customer email] -folder_to_upload [folder to be uploaded] -pe <vip, fat, or ddn>
+python2 sFTP_automation.py -customer_email [customer email] -folder_to_upload [folder to be uploaded] -pe <vip, fat, or ddn>
 ```
 
 ### Running sFTP script without pipeline
